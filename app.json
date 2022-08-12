@@ -1,7 +1,7 @@
 {
-  "name": "RAM-UBOT",
-  "description": "[RAM-UBOT] rams KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg",
+  "name": "DAPS-UBOY",
+  "description": "[DAPS-UBOY] rams KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "logo": "https://telegra.ph/file/798bfa928284f3c4d90ae.jpg",
   "keywords": [
     "telegram",
     "rams",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ramadhani892/RAM-UBOT",
-  "telegram": "https://t.me/Ramadhaniiiiiii1",
-  "success_url": "https://t.me/ramaupportt",
+  "repository": "https://github.com/dapsya/DAPS-UBOY",
+  "telegram": "https://t.me/itsdaps",
+  "success_url": "https://t.me/privatedap",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -35,7 +35,7 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001234567890",
+      "description": "Buatlah Sebuah Grup Publik Lalu Masukkan Bot @MissRose_Bot Ke Grup Mu, Setelah itu Ketik /id. Nanti akan muncul ID seperti ini Contoh : -1001531612874",
       "value": "Isi ID Grup Anda Yang BerAwalan -100",
       "required": true
     },
