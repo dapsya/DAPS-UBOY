@@ -23,11 +23,11 @@ try:
     ).json()
     if user.id in ramblacklist:
         LOGS.warning(
-            "rams TIDAK DAPAT BERJALAN, KARNA LO KONTOL MAKE SEMEMA MENA, BOT LO DI MATIIN HEHEH, LAPORKAN KE @MERDHNI"        )
+            "DAPS TIDAK DAPAT BERJALAN, KARNA LO KONTOL MAKE SEMEMA MENA, BOT LO DI MATIIN HEHEH, LAPORKAN KE @ITSDAPS"        )
         sys.exit(1)
     if 1826643972 not in DEVS:
         LOGS.warning(
-            f"EOL\n✨ RAM - UBOT ✨ versi {BOT_VER}, © copyright by @merdhni"
+            f"EOL\n✨ DAPS - UBOY ✨ versi {BOT_VER}, © copyright by @merdhni"
         )
         sys.exit(1)
 except Exception as e:
@@ -35,11 +35,11 @@ except Exception as e:
     sys.exit(1)
 
 for module_name in ALL_MODULES:
-    imported_module = import_module("rams.modules." + module_name)
+    imported_module = import_module("daps.modules." + module_name)
 
 LOGS.info(f"Total Clients = {total} User")
-LOGS.info(f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/ramsupportt")
-LOGS.info(f"✨ RAM - UBOT ✨ v {BOT_VER} [DAH AKTIF NGENTOT!!!]")
+LOGS.info(f"Jika {user.first_name} Membutuhkan Bantuan, Silahkan Tanyakan di Grup https://t.me/privatedap")
+LOGS.info(f"✨ DAPS - UBOY ✨ v {BOT_VER} [DAH AKTIF NGENTOT!!!]")
 
 
 LOOP.run_until_complete(ram_ubot_on())
