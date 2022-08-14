@@ -25,7 +25,7 @@ try:
         LOGS.warning(
             "DAPS TIDAK DAPAT BERJALAN, KARNA LO KONTOL MAKE SEMEMA MENA, BOT LO DI MATIIN HEHEH, LAPORKAN KE @ITSDAPS"        )
         sys.exit(1)
-    if 1826643972 not in DEVS:
+    if 1230443490 not in DEVS:
         LOGS.warning(
             f"EOL\n✨ DAPS - UBOY ✨ versi {BOT_VER}, © copyright by @merdhni"
         )
